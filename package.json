@@ -1,0 +1,23 @@
+{
+  "name": "yiyi-dapp",
+  "version": "1.0.1",
+  "description": "Welcome to the Yiyi-dApp repository - a Web3 project designed to facilitate seamless interaction with Ethereum smart contracts. The Yiyi-dApp serves as a decentralized application enabling users to execute transactions, query smart contract states, and engage with the Ethereum blockchain in a secure and intuitive manner.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skycapitals/yiyi-dapp.git"
+  },
+  "keywords": [],
+  "author": "skycapital",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.11.1",
+    "react": "^18.2.0",
+    "yiyi-wallet-manager": "^1.0.0"
+  }
+}
